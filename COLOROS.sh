@@ -27,7 +27,7 @@ echo "Create Temp and out dir"
 
 unzip $2 -d $tmpdir &> /dev/null
 echo "Extracting Required Partitions . . . . "
-if [ $(echo -n $1 | head -c 5) = "Pixel" ]; then
+if [ $(echo -n $1 | head -c 5) = "ColorOS" ]; then
 	unzip $tmpdir/*/*.zip -d $tmpdir &> /dev/null
 	simg2img $tmpdir/system.img $outdir/system-old.img
 	simg2img $tmpdir/product.img $outdir/product.img
