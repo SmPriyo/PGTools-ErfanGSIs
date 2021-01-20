@@ -11,7 +11,7 @@ tmpdir="$outdir/tmp"
 
 usage() {
     echo "Usage: $0 <Firmware Type> [Path to Firmware]"
-    echo -e "\tFirmware Type! = Pixel"
+    echo -e "\tFirmware Type! = ColorOS"
     echo -e "\tPath to Firmware!"
 }
 
